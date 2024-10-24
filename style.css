@@ -1,0 +1,112 @@
+body{
+    text-align: center;
+    background-color: blue;
+}
+.gif1{
+    border-radius: 50%;
+}
+.gif2{
+    width: 60;
+    height: 60;
+    background: red;
+    border-radius: 50%;
+}
+#inicio{
+    bottom: 0;
+    background: linear-gradient(blue 0%, red 100%);
+    display: table;
+    width: 100%;
+    height: 50%;
+    z-index: 9;
+}
+#sobre{
+    background: red;
+    width: 100%;
+    height: 50%;
+    display: table;
+    z-index: 9;
+}
+#games{
+    background: linear-gradient(red 0%, yellow 100%);
+    width: 100%;
+    height: 75%;
+    display: table;
+    z-index: 9;
+}
+#filmes{
+    background: linear-gradient(yellow 0%, green 100%);
+    width: 100%;
+    height: 75%;
+    display: table;
+    z-index: 9;
+}
+#contatos{
+    background: linear-gradient(green 0%, red 100%);
+    width: 100%;
+    height: 75%;
+    display: table
+}
+#corhistoria{
+    color: floralwhite;
+    border: 10px;
+}
+#nometitulo{
+    color: rgb(250, 248, 248);
+}
+#games{
+    color: white;
+}
+#filmes{
+    color: white;
+}
+#contatos{
+    color: white;
+}
+#contatos iframe{
+    width: 80%;
+    height: 0;
+}
+.final{
+    border-radius: 20%;
+}
+#texto{
+    color: white;
+    border-color: black;
+    border: 10px;
+}
+#line{
+    height: 6px;
+    background-color: bisque;
+    width: 70px;
+    margin: 8px autos
+}
+#parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.mynavebar{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+.link{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: 'Press Start 2P', cursive ;
+    font-size: 20px;
+}
+.link:hover{
+    font-size: 25px;
+}
+#contatos iframe{
+    width: 70%;
+    height: 50%;
+}
+#h3{
+    font-size: 90px;
+    font-weight: 40px;
+    padding-bottom: 20px;
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+}
